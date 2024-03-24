@@ -42,11 +42,11 @@ app.use('/', routes)
 
 
 
-const port = process.env.PORT;
-const hostname = process.env.HOST;
-http.createServer(app).listen(port, (err) => {
+// const port = process.env.PORT;
+// const hostname = process.env.HOST;
+http.createServer(app).listen(3000, (err) => {
   if (err)
         throw err
     else
-        console.log(`server is running at port no http://localhost:${port}`)
+        console.log(`server is running at port no http://localhost:${3000}`)
 })
