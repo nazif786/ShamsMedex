@@ -1,7 +1,7 @@
 {
   "name": "shamsmedicsweb",
   "version": "1.0.0",
-  "description": "Shams Medics has two madules client side and more complex admin side as being complete dynamic using different layout for each module. the admin module has users and administration of its own. ",
+  "description": "Shams Medics has two modules: client side and a more complex admin side, each with different layouts. The admin module includes user management and administration.",
   "main": "./src/server.js",
   "scripts": {
     "dev": "node ./src/server.js"
@@ -10,13 +10,10 @@
     "medical",
     "equipment",
     "sales",
-    "and",
     "purchase",
     "system",
-    "and",
-    "Invertory",
-    "mgt",
-    "system"
+    "inventory",
+    "management"
   ],
   "author": "Nazifullah mal",
   "license": "ISC",
@@ -25,7 +22,6 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.1",
     "express-handlebars": "^6.0.7",
-    "node": "^21.7.1",
     "path": "^0.12.7"
   },
   "devDependencies": {
