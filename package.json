@@ -4,7 +4,7 @@
   "description": "Shams Medics has two madules client side and more complex admin side as being complete dynamic using different layout for each module. the admin module has users and administration of its own. ",
   "main": "./src/server.js",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node ./src/server.js"
   },
   "keywords": [
     "medical",
